@@ -1,0 +1,11 @@
+
+ For more information:
+	on minglr, see http://minglr.rubyforge.org
+	on Mingle, see http://mingle.thoughtworks.com/mingle-agile-project-management
+	on the author (Stephen Chu), see http://www.stephenchu.com
+
+ ======================================================================================================
+ = Don't not forget to enable your Mingle API authentication by configuring the auth_config.yml file! =
+ ======================================================================================================
+
+ Happy Coding.

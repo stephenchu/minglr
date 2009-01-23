@@ -1,0 +1,2 @@
+class Card < MingleResource
+end
