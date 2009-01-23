@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib', 'boot'))
+
+uri_options, execution_options = MinglrOptionsParser.parse(ARGV, :card, :transition)
+
+MingleResource.configure uri_options
+
+if card = Card.find(execution_options[:card])
+  execution = TransitionExecution.create(execution_options)
+  raise "Transition aborted. Errors: #{execution.errors.full_messages}" if execution.errors.any?
+else
+  raise "Card '#{execution_options[:card]}' cannot be found."
+end
