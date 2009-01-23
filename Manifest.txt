@@ -10,10 +10,5 @@ lib/minglr/minglr_options_parser.rb
 lib/minglr/card.rb
 lib/minglr/transition_execution.rb
 lib/minglr/input_cache.rb
-script/console
-script/destroy
-script/generate
 tasks/commit.sample.rake
 tasks/svn.sample.rake
-test/test_helper.rb
-test/test_minglr.rb
