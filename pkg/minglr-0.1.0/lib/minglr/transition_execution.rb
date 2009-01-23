@@ -1,2 +1,0 @@
-class TransitionExecution < MingleResource
-end
