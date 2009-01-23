@@ -4,7 +4,7 @@
 
 == DESCRIPTION:
 
-* This gem provides the ability to use the Mingle (http://mingle.thoughtworks.com/mingle-agile-project-management) API to execute a transition execution. It also has sample interactive Rake task on how to facilitate easy card movements when a card enters/exits the development queue.
+* This gem provides an executable binary to execute a transition on Mingle (http://mingle.thoughtworks.com/mingle-agile-project-management) through its API. It also has sample interactive Rake task on how to facilitate easy card movements when a card enters/exits the development queue.
 
 == FEATURES:
 
