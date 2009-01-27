@@ -27,13 +27,9 @@ Of course, frequently additional user inputs are required to transition a card. 
 
 Minglr can be used regardless your application is a Ruby on Rails web application or a simple Ruby application. In fact, it can even be used as a command line tool to transition cards on Mingle.
 
-== REQUIREMENTS:
-
-* FIX (list of requirements)
-
 == INSTALL:
 
-* sudo gem install minglr
+* sudo gem install stephenchu-minglr
 * Preferably install rb-password (http://www.caliban.org/ruby/ruby-password.shtml), through Macports (sudo port install rb-password)
 * Enable Mingle API basic authentication in auth_config.yml, then restart it.
 * Copy over the "path-to-minglr/tasks/*.sample.rake" files and start customizing for your check-in needs.
