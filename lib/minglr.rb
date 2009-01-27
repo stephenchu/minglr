@@ -14,5 +14,5 @@ $:.unshift(File.dirname(__FILE__)) unless
 
 module Minglr
   VERSION = '0.1.0'
-  ROOT = File.expand_path File.join(File.dirname(__FILE__), '..')
+  ROOT    = File.expand_path File.join(File.dirname(__FILE__), '..')
 end
