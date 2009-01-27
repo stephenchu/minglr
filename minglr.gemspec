@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.email    = "github@stephenchu.com"
   s.homepage = "http://github.com/stephenchu/minglr/tree/master"
   s.description = "Do you forget to update a story card on Mingle when the card has moved into developers' hands? How about forgetting to update the story card to kick-off its sign off process when story is completed? If we let these sloppiness happen too often, communication flow will be hindered, and the time it takes to provide business value through story completions will be lengthened. Fortunately, Minglr can help."
-  s.has_rdoc = true
+  s.has_rdoc = false
   s.authors  = ["Stephen Chu", "Chris O'Meara"]
   s.files    = Dir['bin/*'] + Dir['lib/**/*.rb'] + Dir['tasks/**/*.rake']
   s.rdoc_options = ["--main", "README.rdoc"]
