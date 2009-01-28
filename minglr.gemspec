@@ -9,6 +9,5 @@ Gem::Specification.new do |s|
   s.has_rdoc = false
   s.authors  = ["Stephen Chu", "Chris O'Meara"]
   s.files    = ["bin/mtx", "History.txt", "lib/minglr/card.rb", "lib/minglr/input_cache.rb", "lib/minglr/mingle_resource.rb", "lib/minglr/minglr_options_parser.rb", "lib/minglr/transition_execution.rb", "lib/minglr.rb", "Manifest.txt", "minglr.gemspec", "PostInstall.txt", "Rakefile", "README.rdoc", "tasks/commit.sample.rake", "tasks/svn.sample.rake"]
-  s.rdoc_options = ["--main", "README.rdoc"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.rdoc"]
 end
