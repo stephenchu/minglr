@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "minglr"
-  s.version  = "0.1.0.RC0"
+  s.version  = "0.1.0.0"
   s.date     = "2009-01-20"
   s.summary  = "Consists of Rake task helpers and a command line utility to help transitioning story cards on Mingle through the Mingle API. Plugs right into your routine \"test > code > check-in > move card\" build process."
   s.email    = "github@stephenchu.com"
